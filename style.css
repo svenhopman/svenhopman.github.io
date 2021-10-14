@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     color: white;
-    border: 3px;
+    border: 2px;
     font-family: 'Overpass', sans-serif;
     ;
 }
@@ -39,7 +39,7 @@ body {
 
 .spacer {
     flex-grow: 1;
-    border-right: 3px white;
+    border-right: 2px white;
 }
 
 .right {

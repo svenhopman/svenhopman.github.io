@@ -11,7 +11,7 @@ function openTab(elmnt, tabName) {
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].style.borderStyle = "hidden solid hidden hidden";
-        tablinks[i].style.padding = "15px 12px 15px 15px";
+        tablinks[i].style.padding = "15px 13px 15px 15px";
     }
 
     // Show the current tab and update appearance for current tablink
@@ -19,7 +19,7 @@ function openTab(elmnt, tabName) {
     document.getElementById('closeTab').style.display = (tabName == 'home') ? "none" : "block";
     if (elmnt.id != 'closeTab') {
       elmnt.style.borderStyle = "solid hidden solid solid";
-      elmnt.style.padding = "12px 15px 12px 12px";
+      elmnt.style.padding = "13px 15px 13px 13px";
     }
   }
 
