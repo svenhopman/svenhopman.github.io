@@ -39,7 +39,7 @@ body {
 
 .spacer {
     flex-grow: 1;
-    border-right: solid white;
+    border-right: 3px white;
 }
 
 .right {
