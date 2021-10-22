@@ -75,9 +75,8 @@ text {
 }
 
 hr {
-    height: 2px;
-    border-width: 0;
-    background-color: yellow;
+    border: solid 1px yellow;
+    margin-top: 1rem;
 }
 
 .project-title {
@@ -93,15 +92,15 @@ hr {
 .project-labels>li {
     border-radius: 1rem;
     color: grey;
-    border: solid grey;
-    padding: 0rem 0.25rem;
+    border: solid 2px grey;
+    padding: 0rem 0.5rem;
     display: inline-block;
     transition: 0.3s;
-    margin: 0.25rem 0rem;
+    margin-top: 0.5rem
 }
 
 .project-labels>li:hover {
-    border: solid yellow;
+    border: solid 2px yellow;
     color: white;
 }
 
