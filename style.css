@@ -30,12 +30,6 @@ body {
     padding: 1rem 0rem 1rem 1rem;
 }
 
-@media only screen and (max-width: 600px) {
-    .left {
-        flex-grow: 0;
-    }
-}
-
 .spacer {
     flex-grow: 1;
     border-right: solid 2px white;
@@ -77,6 +71,10 @@ text {
 hr {
     border: solid 1px yellow;
     margin-top: 1rem;
+}
+
+#projects div:first-child {
+    margin-top: 1.5rem;
 }
 
 .project-title {
@@ -143,4 +141,30 @@ a:hover, .underline:hover {
 
 #aboutme {
     font-size: 1.5rem;
+}
+
+#contactme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactme > a {
+    margin: 3rem;
+}
+
+path:hover {
+    fill: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+    .left {
+        flex-grow: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #contactme {
+        flex-direction: column;
+    }
 }

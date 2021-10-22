@@ -15,7 +15,7 @@ function openTab(elmnt, tabName) {
     }
 
     // Show the current tab and update appearance for current tablink
-    document.getElementById(tabName).style.display = (tabName == 'home') ? "flex" : "block";
+    document.getElementById(tabName).style.display = (tabName == 'home' || tabName == 'contactme') ? "flex" : "block";
     document.getElementById('closeTab').style.display = (tabName == 'home') ? "none" : "block";
     if (elmnt.id != 'closeTab') {
       elmnt.style.borderStyle = "solid hidden solid solid";
