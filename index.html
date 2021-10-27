@@ -16,9 +16,9 @@
     <div class="left">
       <div class="spacer"></div>
       <div>
-        <p class="tablink" onclick="openTab(this, 'aboutme')">about.<span class="highlight">me</span></p>
+        <p class="tablink" onclick="openTab(this, 'aboutme')">about.<span class="highlight clickable">me</span></p>
         <p class="tablink" onclick="openTab(this, 'projects')">projects</p>
-        <p class="tablink" onclick="openTab(this, 'contactme')">contact.<span class="highlight">me</span></p>
+        <p class="tablink" onclick="openTab(this, 'contactme')">contact.<span class="highlight clickable">me</span></p>
       </div>
       <div class="spacer"></div>
     </div>
@@ -91,10 +91,7 @@
           </svg>
         </a>
       </div>
-      <svg id="closeTab" viewBox="0 0 20 20" onclick="openTab(this, 'home')">
-        <line x1="0" y1="0" x2="20" y2="20"/>
-        <line x1="0" y1="20" x2="20" y2="0"/>
-      </svg>
+      <img id="closeTab" class="clickable" onclick="openTab(this, 'home')" src="images/cross.svg"></img>
     </div>
   </div>
   <script src="index.js"></script>
